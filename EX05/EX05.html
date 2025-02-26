@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EX05</title>
+    </head>
+    <body>
+        <script language="javascript" type="text/javascript">
+            let n,m,t=0;
+            n=Math.random()*100;
+            n=Math.floor(n);
+            do{
+                m=prompt("Entrez un nombre :");
+                if(m>n){
+                   alert("Ce nombre plus grand !");
+                }
+                if(m<n){
+                   alert("Ce nombre plus petit !");
+                }
+                t++;
+            }while(n!=m);
+            alert("Bravooo !!! nombre trouver en "+t+" tentatives");
+        </script>
+    </body>
+</html>
